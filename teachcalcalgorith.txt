@@ -4,4 +4,136 @@ generate 2 random nos and do a random choice of operand and give calculated outp
 delay 1 second
 repeat
 
-this code isn't hard to repeat but how would you code in fpga level in verilog to directly make device next a break like this can help make device lol..
+this code isn't hard to repeat but how would you code in fpga level in verilog to directly make device next a break like this can help make device lol.. This code below is written in non winning unpaid ai.. needs 10 such iterations for real working teach calc manufacture.
+
+// This Verilog module implements a random number generator and a simple ALU.
+// It is designed to be a custom peripheral for a Soft-CPU.
+// The Soft-CPU would interact with this module via memory-mapped registers.
+
+module random_calculator_core (
+    input wire clk,
+    input wire reset,
+    
+    // Control and status signals from the Soft-CPU
+    input wire start_calc, // Pulse this signal to trigger a new calculation
+    output reg calculation_done, // High when calculation is complete
+
+    // Data outputs to the Soft-CPU
+    output reg [7:0] number1_out,
+    output reg [7:0] number2_out,
+    output reg [1:0] operand_out, // 00: +, 01: -, 10: *, 11: /
+    output reg [15:0] result_out  // Wider output for multiplication
+);
+
+    // --- Internal Registers ---
+    reg [7:0] number1_reg;
+    reg [7:0] number2_reg;
+    reg [1:0] operand_reg;
+    reg [15:0] result_reg;
+
+    // --- Linear Feedback Shift Registers (LFSR) for pseudo-random number generation ---
+    // LFSR for number 1
+    reg [7:0] lfsr1;
+    always @(posedge clk or posedge reset) begin
+        if (reset) begin
+            lfsr1 <= 8'h01; // Seed
+        end else begin
+            lfsr1 <= {lfsr1[6:0], lfsr1[7] ^ lfsr1[5] ^ lfsr1[4] ^ lfsr1[3]};
+        end
+    end
+
+    // LFSR for number 2
+    reg [7:0] lfsr2;
+    always @(posedge clk or posedge reset) begin
+        if (reset) begin
+            lfsr2 <= 8'h2A; // Seed
+        end else begin
+            lfsr2 <= {lfsr2[6:0], lfsr2[7] ^ lfsr2[5] ^ lfsr2[4] ^ lfsr2[3]};
+        end
+    end
+
+    // LFSR for operand selection
+    reg [1:0] lfsr_op;
+    always @(posedge clk or posedge reset) begin
+        if (reset) begin
+            lfsr_op <= 2'b01; // Seed
+        end else begin
+            lfsr_op <= {lfsr_op[0], lfsr_op[1] ^ lfsr_op[0]};
+        end
+    end
+
+    // --- FSM for state control ---
+    parameter IDLE = 2'b00, GENERATE = 2'b01, CALCULATE = 2'b10, DONE = 2'b11;
+    reg [1:0] state, next_state;
+    
+    always @(posedge clk or posedge reset) begin
+        if (reset) begin
+            state <= IDLE;
+        end else begin
+            state <= next_state;
+        end
+    end
+
+    always @(*) begin
+        next_state = state;
+        case (state)
+            IDLE:
+                if (start_calc) begin
+                    next_state = GENERATE;
+                end
+            GENERATE:
+                next_state = CALCULATE;
+            CALCULATE:
+                next_state = DONE;
+            DONE:
+                next_state = IDLE;
+        endcase
+    end
+
+    // --- Main Logic ---
+    always @(posedge clk or posedge reset) begin
+        if (reset) begin
+            number1_reg <= 8'h00;
+            number2_reg <= 8'h00;
+            operand_reg <= 2'b00;
+            result_reg <= 16'h0000;
+            calculation_done <= 1'b0;
+        end else begin
+            calculation_done <= 1'b0; // Default to low
+            case (state)
+                GENERATE: begin
+                    // Sample the LFSRs to get new numbers and an operand
+                    number1_reg <= lfsr1;
+                    number2_reg <= lfsr2;
+                    operand_reg <= lfsr_op;
+                end
+                CALCULATE: begin
+                    case (operand_reg)
+                        2'b00: // Addition
+                            result_reg <= number1_reg + number2_reg;
+                        2'b01: // Subtraction
+                            result_reg <= number1_reg - number2_reg;
+                        2'b10: // Multiplication
+                            result_reg <= number1_reg * number2_reg;
+                        2'b11: // Division (avoid division by zero)
+                            if (number2_reg == 8'b00000000)
+                                result_reg <= 16'hFFFF; // Error flag
+                            else
+                                result_reg <= number1_reg / number2_reg;
+                    endcase
+                end
+                DONE: begin
+                    calculation_done <= 1'b1;
+                end
+            endcase
+        end
+    end
+
+    // Assign internal registers to the output ports
+    assign number1_out = number1_reg;
+    assign number2_out = number2_reg;
+    assign operand_out = operand_reg;
+    assign result_out = result_reg;
+
+endmodule
+
