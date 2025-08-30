@@ -1,7 +1,7 @@
 # Pythoncodesafter2025TragedyRestarting
 There were some issues and wonder if the next set of same essential codes will succeed when bored
 
-Can just write roulette code on day 1..
+Can just write roulette code on day 1.. (20/8/25)
 
 next challenge is to use interrupt and debouncing button for time travel in arduino clock by say fixed amount and back like in IITM mars rover with team of 4
 Life in coding is like a game of snakes and ladders sometimes if combined problems occur we have to restart and have fun like  
