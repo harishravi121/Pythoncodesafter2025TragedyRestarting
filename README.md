@@ -10,4 +10,4 @@ next sorting, plotting, rms data analaysis, prime no  etc we have to see an exam
 
 To write code enough to start a business leadership we need premium ai for months say we collect 100 simple prob lems and make 1 month ai or even share to keep making such code..
 
-Worst mistake was not coding the arduino devices in verilog with winning ai during paid months to directly make into chip with another code they have by sponsors.. Now can try with ai again (30/8/26)
+Worst mistake was not coding the arduino devices in verilog with winning ai during paid months to directly make into chip with another code they have by sponsors.. Now can try with ai again (30/8/25)
