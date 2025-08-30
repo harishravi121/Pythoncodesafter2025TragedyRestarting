@@ -1,0 +1,5 @@
+A code to revise as shown in arduino folder...
+
+generate 2 random nos and do a random choice of operand and give calculated output.
+delay 1 second
+repeat
