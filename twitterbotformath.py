@@ -1,4 +1,4 @@
-it would be fun to tweet random maths problems and physics equations but need a friend to set it up
+it would be fun to tweet random maths problems and physics equations but need a friend to set it up say import random and add multiply etc bots should just show on personal code on reference only and not in feed
 
 
 # auto_tweeter.py
