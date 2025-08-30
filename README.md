@@ -9,3 +9,5 @@ Life in coding is like a game of snakes and ladders sometimes if combined proble
 next sorting, plotting, rms data analaysis, prime no  etc we have to see an example (or ask ai for an example) or NPTEL Lectures..
 
 To write code enough to start a business leadership we need premium ai for months say we collect 100 simple prob lems and make 1 month ai or even share to keep making such code..
+
+Worst mistake was not coding the arduino devices in verilog to directly make into chip with another code they have by sponsors..
