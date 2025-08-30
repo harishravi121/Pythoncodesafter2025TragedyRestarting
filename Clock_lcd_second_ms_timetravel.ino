@@ -2,12 +2,12 @@
 Atomic clock can be connected to this
 */// include the library code:
 #include <LiquidCrystal.h>
-// initialize the library by associating any needed LCD interface pin
+// initialize the library by associating any needed LCD interface pin 
 // with the arduino pin number it is connected to
 const int rs = 8, en = 9, d4 = 4, d5 = 5, d6 = 6, d7 = 7;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
-const int buttonPin =A0; //pin unknown
+const int buttonPin =A0; //pin unknown its just down button and works
 
 
 // the setup routine runs once when you press reset:
@@ -58,3 +58,4 @@ int buttonState = 0;
   }
   }
     }}
+
