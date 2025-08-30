@@ -3,3 +3,5 @@ A code to revise as shown in arduino folder...
 generate 2 random nos and do a random choice of operand and give calculated output.
 delay 1 second
 repeat
+
+this code isn't hard to repeat but how would you code in fpga level in verilog to directly make device next
