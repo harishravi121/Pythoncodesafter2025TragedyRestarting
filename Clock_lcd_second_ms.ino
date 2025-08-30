@@ -1,5 +1,5 @@
 /*
-Atomic clock can be connected to this
+Atomic clock can be connected to this next challenge is to use interrupt and debouncing button for time travel in arduino clock like in IITM mars rover with team of 4
 */// include the library code:
 #include <LiquidCrystal.h>
 // initialize the library by associating any needed LCD interface pin
@@ -54,3 +54,4 @@ int ms=0;
   }
   }
     }}
+
