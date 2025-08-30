@@ -30,7 +30,7 @@ int buttonState = 0;
   while(1){
   // print out the value you read:
    buttonState = digitalRead(buttonPin);int z=0;
-   z=10*(1-buttonState);
+   z=10*(1-buttonState);//10 min as its resolution of space atomic clocks in lateral distance in gps for imagination 
    lcd.setCursor(0, 0);
   lcd.print(timemin+z);
   lcd.print("  ");
@@ -58,4 +58,5 @@ int buttonState = 0;
   }
   }
     }}
+
 
