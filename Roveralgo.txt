@@ -14,3 +14,5 @@ For obstacle or ditch 2nd interrupt in or gate of all front down etc sensors the
 written by Hairsh Sep 13 2025
 
 Needs patience and funding hope to write exact code or will students be inbterested?
+
+There is something called arbit interrupts due to electromagnetic induction from motors and this needs heavy debouncing code loops of interrupts
