@@ -1,0 +1,14 @@
+loop{
+Move straight or back randmly (random seconds)
+Trun randomly left or right randomly with differential turning of 4wd motor(random seconds)
+  }
+
+
+WOuld be a gaussian probability to find bot from center of release... It would be nice to sell 1 billion room rover as discussed with IIT friends or any college or at home company as pet
+
+A second layer is interrupt 1 hr move 10 min forward 
+With this you can do surveylance of an entire planet or satellite like moon nars etc
+
+written by Hairsh Sep 13 2025
+
+Needs patience and funding hope to write exact code or will students be inbterested?
