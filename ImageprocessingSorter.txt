@@ -1,0 +1,21 @@
+Use 2 colors of half squared
+Mid point to mid point is vector of bot
+
+Let object be at some position of a particular color and that color gives center
+
+
+loop{
+ rotate difference in vector to center of object the angle by rotating till the value is zero
+ move forward 10 seconds
+ }
+
+after first loop you will just be error correcting till you reach object and capture in front box
+
+then observe dock color and find center
+
+loop{
+ rotate difference in vector to center of dock the angle by rotating till the value is zero
+ move forward 10 seconds
+ }
+
+Repeat for all objects this is shaastra final year 2nd prize code
