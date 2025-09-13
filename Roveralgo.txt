@@ -20,3 +20,4 @@ There is something called arbit interrupts due to electromagnetic induction from
 Tried 4wd after seeing failure in 1st competition in sand manual race lift and saw winning bot had 4wd
 
 Team of 4 IITM hostel mates
+Lessons from seniors on yearly changing competitions
