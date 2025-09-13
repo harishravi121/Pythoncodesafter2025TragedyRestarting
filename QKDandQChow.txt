@@ -10,3 +10,5 @@ Teaching the QKD Algorithm after relearning now might be the key in this level o
 
 
 Someone even said generating entanglement with atomic vapor is easy with 20dB proof,
+
+Similarly if you had an entangled atom how can you compute faster and how to generate it? WIll revise
