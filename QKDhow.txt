@@ -7,3 +7,6 @@ THe biggest mistake was feeling like encrypting that and not teaching it over em
 
 
 Teaching the QKD Algorithm after relearning now might be the key in this level or at the college level itself for the philosophers stone..
+
+
+Someone even said generating entanglement with atomic vapor is easy with 20dB proof,
