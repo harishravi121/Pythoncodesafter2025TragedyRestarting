@@ -12,3 +12,5 @@ can use random addon seconds to make it natural..
 //A very creative 30 second video
 Because time is money and small compression makes movie a hit and a full movie can be shot directly on smartphone or slr
 by Harish Oct 2025
+
+you can do full 30 min video with manual interrupt pause add on and for loop for above code..
