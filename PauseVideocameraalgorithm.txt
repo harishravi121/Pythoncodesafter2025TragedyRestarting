@@ -1,0 +1,12 @@
+delay(5) //5seconds delay for positioning after button
+start recording
+delay(15)
+pause recording
+delay (5) for collecting thoughts
+start recording
+delay (15)
+stop recording
+
+
+can use random addon seconds to make it natural..
+//A very creative 30 second video
