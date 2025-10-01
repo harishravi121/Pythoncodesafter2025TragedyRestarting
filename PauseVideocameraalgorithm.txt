@@ -3,7 +3,7 @@ start recording
 delay(15)
 pause recording
 delay (5) for collecting thoughts
-start recording
+continue recording
 delay (15)
 stop recording
 
