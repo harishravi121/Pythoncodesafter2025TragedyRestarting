@@ -1,4 +1,4 @@
-#There is pin 2 with mosfet amplification of bottom level and connected to AC relay and it takes x mins to fill to top per measurement..
+#There is pin 2 with mosfet amplification of bottom level of rooptop tank and connected to AC relay and it takes x mins to fill to top per measurement..
 
 import random in ATTIny 85 or AVR prototype with arduino maybe
 
