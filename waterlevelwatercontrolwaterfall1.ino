@@ -9,4 +9,4 @@ after (x mins + random (0-4 mins)) switch off for grand waterfall effect in neig
 Trip to waterfalls daily costs 4000 re per family so this is rich code by Dr. Harish
 
 
-  THe water must fall to a slanting garden or trees..
+  THe water must fall to a slanting garden or trees or its okay with rainwater harvesting..
