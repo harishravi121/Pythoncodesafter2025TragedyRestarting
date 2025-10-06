@@ -7,3 +7,6 @@ if(water level switch goes to ground based on mosfet amplification of water sign
 after (x mins + random (0-4 mins)) switch off for grand waterfall effect in neighbourhood
 
 Trip to waterfalls daily costs 4000 re per family so this is rich code by Dr. Harish
+
+
+  THe water must fall to a slanting garden or trees..
