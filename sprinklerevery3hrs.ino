@@ -6,4 +6,4 @@ loop{
   pin2=0 ( switch off sprinkler)
   }
 
-keep looping
+keep looping in attiny or AVR or arduino prototype
