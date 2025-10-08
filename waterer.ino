@@ -1,5 +1,5 @@
 
-//watering plants
+//watering plants and filling tanks cheap
 void setup() {
   
   //LED should be connected to transistor and relay and a for loop for 1000 should be written around delay as its in milliseconds
@@ -16,4 +16,5 @@ void loop() {
   delay(delayon);
   digitalWrite(LED_BUILTIN, LOW);
   }
+
 
