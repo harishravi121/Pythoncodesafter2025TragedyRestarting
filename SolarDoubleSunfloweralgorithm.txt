@@ -1,0 +1,10 @@
+loop{
+motor on at 180 deg rotation per 12 hrs motor
+delay (12 hrs)
+rewind at 180 deg rotation per min with high current
+delay(1 min)
+delay (12) hr idle
+
+ideal solar terrestial code..
+
+just 200 re Arduino chip with pwm and h bridge..
