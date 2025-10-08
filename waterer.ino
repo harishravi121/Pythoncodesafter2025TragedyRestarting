@@ -17,4 +17,5 @@ void loop() {
   digitalWrite(LED_BUILTIN, LOW);
   }
 
+//can add some random delays as cushions in between appropriately some waterfall effect is also good
 
