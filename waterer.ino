@@ -2,10 +2,7 @@
 //watering plants
 void setup() {
   
-  // initialize serial communication at 9600 bits per second:
-    
-  // Print a message to the LCD.
- 
+  //LED should be connected to transistor and relay and a for loop for 1000 should be written around delay as its in milliseconds
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
@@ -19,3 +16,4 @@ void loop() {
   delay(delayon);
   digitalWrite(LED_BUILTIN, LOW);
   }
+
