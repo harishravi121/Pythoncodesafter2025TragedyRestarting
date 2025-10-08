@@ -18,5 +18,6 @@ void loop() {
   }
 
 //can add some random delays as cushions in between appropriately some waterfall effect is also good
-//one can make a verilog code to directly make it at factory with ai..
+//one can make a verilog code to directly make it at factory with ai and as small as possible 
+
 
