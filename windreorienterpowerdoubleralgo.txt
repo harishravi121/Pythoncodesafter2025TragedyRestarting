@@ -1,0 +1,14 @@
+loop{
+a=powermeter(read)
+rotate(5 deg positive)
+if increment by 10 % exit loop
+else
+
+a=powermeter(read)
+rotate(10 deg negetive)
+if increment by 10 % exit loop
+else
+
+rotate(6 deg positive to come to zero degree)
+
+}
