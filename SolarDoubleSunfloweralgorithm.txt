@@ -1,5 +1,5 @@
 loop{
-motor on at 180 deg rotation per 12 hrs motor
+motor on at 180 deg rotation per 12 hrs motor (USE PWM, HBridge and a thread to attach at end with counter weight.. callibrate timer factor in 6 hrs)
 delay (12 hrs)
 rewind at 180 deg rotation per min with high current
 delay(1 min)
