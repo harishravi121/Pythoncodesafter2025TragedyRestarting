@@ -8,3 +8,4 @@ delay (12) hr idle
 ideal solar terrestial code..
 
 just 200 re Arduino chip with pwm and h bridge..
+A 10 MW facility can become 20MW facility saving 10 crores from thin air.. lol
