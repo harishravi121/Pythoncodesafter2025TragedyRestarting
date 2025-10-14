@@ -6,3 +6,5 @@ move left/right(random(5) seconds)
 interrupt sensor move opposite direction and change to random direction
 this code leadds to helicopter in spherical gaussian
 we can write hourly 1 min move forward to cover a higher linear direction in disk
+
+#Entropy of 3d to 2d in a room is 1 million factor..
