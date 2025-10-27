@@ -1,0 +1,17 @@
+To type latex symbol by symbol immediately in text files and all social media terminal like prompts could use cents or rupee symbols and is nice to do artistic description of images
+
+I don't know how to code that or even exact algorigthm
+
+Maybe 
+
+Normal keyboard
+if button 3
+print a
+
+latex keyboard
+
+if button 3
+print a
+
+else if button 4-6 13232 or something
+print char no 123 or alpha
