@@ -12,4 +12,4 @@ A 10 MW facility can become 20MW facility saving 10 crores from thin air.. lol
 
 Another suggestion near equator like india could be
 
-mount at 30 deg after 3 hrs rotate by 60 deg to be perfect horizontal and after 6 hrs rotate 30 deg to face other way and after 3 hrs come back to first.. no need of perfect tracking..
+mount at 60 deg in morning 6 am after 3 hrs rotate by 30 deg to be perfect horizontal and after 6 hrs rotate 60 deg to face other way and after 3 hrs come back to first.. no need of perfect tracking..
