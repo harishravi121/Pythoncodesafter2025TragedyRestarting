@@ -29,4 +29,7 @@ void loop() {
 
  // If you add a plastic ball float with timer plus random you can avoid waterfall losses too..
 
+This needs no wiring to top floor  and climbing etc..
+
+
 
