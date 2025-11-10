@@ -1,8 +1,10 @@
 
 //watering plants and filling tanks cheap
+
+LED BUILTIN means wire connected to motor also..
 void setup() {
   
-  //LED should be connected to transistor and relay and a for loop for 1000 should be written around delay as its in milliseconds
+  //LED should be connected to transistor and relay for pump and a for loop for 1000 should be written around delay as its in milliseconds
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
@@ -19,5 +21,12 @@ void loop() {
 
 //can add some random delays as cushions in between appropriately some waterfall effect is also good
 //one can make a verilog code to directly make it at factory with ai and as small as possible 
+
+//Trip to waterfalls daily costs 4000 re per family so this is rich code by Dr. Harish
+
+
+//  THe water must fall to a slanting garden or trees or its okay with rainwater harvesting but it must be audible..
+
+ // If you add a plastic ball float with timer plus random you can avoid waterfall losses too..
 
 
