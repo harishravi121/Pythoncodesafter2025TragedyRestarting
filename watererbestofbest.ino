@@ -10,8 +10,8 @@ void setup() {
 
 // the loop routine runs over and over again forever:
 void loop() {
-  long delayoff=3*60*3600;
-  long delayon=20;
+  long delayoff=3*60*3600+random(something);
+  long delayon=20+random(something);
 
   delay(delayoff);
   digitalWrite(LED_BUILTIN, HIGH);
@@ -30,6 +30,7 @@ void loop() {
  // If you add a plastic ball float with timer plus random you can avoid waterfall losses too..
 
 This needs no wiring to top floor  and climbing etc..
+
 
 
 
