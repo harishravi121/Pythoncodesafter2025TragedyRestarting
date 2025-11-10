@@ -10,8 +10,9 @@ void setup() {
 
 // the loop routine runs over and over again forever: this delay is in ms or seconds it doesn't matter much a random prefactor can be added too for beauty
 void loop() {
-  long delayoff=3*60*3600+random(something0);
-  long delayon=20+random(something);
+  x=random.randint(10,200)
+  long delayoff=3*60*3600+random(something0)*x;
+  long delayon=20+random(something)*x;
 
   delay(delayoff);
   digitalWrite(LED_BUILTIN, HIGH);
