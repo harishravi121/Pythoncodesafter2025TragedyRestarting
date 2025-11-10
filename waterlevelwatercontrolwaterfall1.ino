@@ -11,4 +11,6 @@ Trip to waterfalls daily costs 4000 re per family so this is rich code by Dr. Ha
 
   THe water must fall to a slanting garden or trees or its okay with rainwater harvesting but it must be audible..
 
+  If you add a plastic ball float with timer plus random you can avoid waterfall losses too..
+
   Another point to note is if you want level based closed circuit water level controller you must use a fully exposed ground connector top level to bottom as the series resistance effect makes 4 level controller defective. I made 20 level controller perfectly after measuring resistances in 2006 in IITM
